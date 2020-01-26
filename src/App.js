@@ -1,5 +1,6 @@
 import React from "react";
 
+import GlobalStyle from "./styles/global";
 import socket from "./services/socket";
 import Card from "./components/Card/index";
 
@@ -8,16 +9,15 @@ function App() {
     console.log(data);
   });
   return (
-    <div
-      style={{
-        backgroundColor: "#333"
-      }}
-    >
-      <Card color="#68f"></Card>
-      <Card color="#71c"></Card>
-      <Card color="#0da"></Card>
-      <Card color="#f90"></Card>
-    </div>
+    <>
+      <GlobalStyle />
+      <div>
+        <Card color="#68f"></Card>
+        <Card color="#71c"></Card>
+        <Card color="#0da"></Card>
+        <Card color="#f90"></Card>
+      </div>
+    </>
   );
 }
 
