@@ -19,13 +19,13 @@ export default createGlobalStyle`
   }
 
   body{
-    background: #222;
+    background: #000014;
     -webkit-font-smoothing: antialiased;
     
   }
 
   body, input, button{
-    color: #222;
+    color: #000014;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
 
