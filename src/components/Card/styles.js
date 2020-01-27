@@ -6,7 +6,7 @@ export const Container = styled.div`
   border-left-width: 6px;
   border-radius: 8px;
   box-shadow: 0px 0px 2px #bababa;
-  width: 300px;
+  width: 100%;
   height: 180px;
   margin: 10px;
 `;
